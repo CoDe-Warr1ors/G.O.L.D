@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Admin Login</title>
-<link rel="stylesheet" type="text/css" href="css/s1.css">
-
+	<title>Blood Bank Home</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-<div id="full">
-<div id="inner_full">
-<div id = "header"><H1>Blood Bank Management System</H1></div>
-<div id ="body"><br><br><br><br><br><br>
-		<table align = "center">
-			<tr>
-		<td width = "200px" height = "70px"><b><h3>Enter Username</h3></b></td>
-		<td width = "100px" height = "70px"><input type = "text" name = "UN" placeholder = "Enter Username" style=" width: 180px;height: 40px; border-radius:10px;"></td>
-		</tr>
-		<tr>
-			<td width = "200px" height= "70px"><b><h3>Enter Password</h3></b></td>
-			<td width = "200px" height = "70px"><input type = "text" name = "PSWD" placeholder = "Enter Password" style=" width: 180px;height: 40px; border-radius:10px;"></td>
-		</tr>
-		<tr>
-			<td><input type = "submit" name = "SUB" value= "login" style=" width: 70px;height: 40px; border-radius:3px;"></td>
-		</tr>
-		</table>
-		</div>
-<div id = "footer"><H3>Created by GOLD team members by love</H3></div>
+<div class= "header">
+	<div class="logo"><h2>Blood Bank Management System</h2></div>
+	<div class="nav">
+		<div id="a"><a href="index.php">Home</a></div>
+		<div id="b"><a href="about.php">About us</a></div>
+		<div id="c"><a href="contact.php">Contact Us</a></div>
+		<div id="d"><a href="login.php">login</a></div>
+	</div>
 </div>
+<div class= "banner" ><h3 align="center" style="color:green"<br><br><br><br>Give Blood To Save Life</h3></div>
+<div class= "container">
+	<br>
+	<h2 align="center" style="color:red">Doctor's Information</h2>
+	<br><br>
+	<center><table border="1px">
+		<tr>
+			<td width="200px" height="50px" style="color:white"<center><b>Doctor's Name</b></center></td>
+			<td width="200px" height="50px" style="color:white"<center><b>Mobile Number</b></center></td>
+			<td width="200px" height="50px" style="color:white"<center><b>Address</b></center></td>
+			<td width="200px" height="50px" style="color:white"<center><b>specialisation</b></center></td>
+		</tr>
+		<tr>
+			<td width="200px" height="50px" style="color:white"<center><b>Dr Satish sharma</b></center></td>
+			<td width="200px" height="50px" style="color:white"<center><b>42069698055</b></center></td>
+			<td width="200px" height="50px" style="color:white"<center><b>Self care medical center</b></center></td>
+			<td width="200px" height="50px" style="color:white"<center><b>cardiologist</b></center></td>
+		</tr>
+	</table></center>
 </div>
 
+<div class="footer"><h2 align="center">Created By Team GOLD</h2></div>
 </body>
 </html>
